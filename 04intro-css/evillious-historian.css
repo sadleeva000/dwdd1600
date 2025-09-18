@@ -1,0 +1,138 @@
+body {
+    background-color: #2b2b5b;
+    margin: 0;
+}
+
+p {
+    color: #121212;
+    margin-left: 1.1rem
+}
+
+a {
+    color: #665896;
+}
+
+a:hover {
+    color: white
+}
+
+/* header stuff */
+
+header {
+    color: black;
+    background-color: #afccd4;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+header span {
+    font-size: 2rem;
+    font-family: "IM Fell English", serif;
+    font-weight: 550;
+}
+
+/* navigation stuff */
+
+nav {
+    background-color: #afccd4;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+nav li.active a {
+    border: 1px solid #665896;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px
+}
+
+nav li.active a:hover {
+    color: #665896;
+}
+
+/* main stuff */
+
+main {
+    padding: 1rem 10px;
+}
+
+main h1,h2,h3,h4 {
+    font-family: "IM Fell English", serif;
+}
+
+main h2,h3,h4 {
+    margin-left: .5rem
+}
+
+main h1 {
+    font-size: 550;
+}
+
+main h3 {
+    font-size: 1.25rem
+}
+
+main p {
+    margin-right: 1.5rem
+}
+
+main ol {
+    font-size: 1.3rem;
+    color: #121212
+}
+
+main ul li {
+    list-style-type: circle;
+}
+
+main address {
+    margin-left: 1.2rem;
+    color: grey
+}
+
+main dl {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+main dl dt {
+    font-size: 1.1rem
+}
+
+main dl dd {
+    color: #121212;
+}
+
+main ol {
+    list-style-position: inside;
+    margin-left: -1rem;
+}
+
+/* footer stuff */
+
+footer {
+    background-color: #afccd4;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+}
