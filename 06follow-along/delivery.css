@@ -87,22 +87,22 @@ main a {
     text-align: center;
     font-size: .8rem;
 }
-.myform fieldset {
+.myForm fieldset {
     border: 1px solid #43a0b6;
     border-radius: 3px;
     margin-bottom: 1rem;
 }
-.myform legend {
+.myForm legend {
     color: #43a0b6;
     font-size: 0.8rem;
 }
-.myform label {
+.myForm label {
     margin: 0.5rem;
 }
-.myform label, .myform select, .myform [type="text"], .myform [type="tell"] .myform [type="textarea"] {
+.myForm label, .myForm select, .myForm [type="text"], .myForm [type="tel"] .myForm textarea {
     display: block;
 }
-.myform [type="text"], .myform [type="tell"], .myform select, .myform [type="textarea"] {
+.myForm [type="text"], .myForm [type="tel"], .myForm select, .myForm textarea {
     border: solid 1px #888;
     padding: .3rem;
     width: 250px;
@@ -110,13 +110,17 @@ main a {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 200;
 }
-.myform [type="textarea"] {
+.myForm textarea {
     height: 6rem;
+    display: block;
 }
-.myform :required {
+.myForm [type="tel"] {
+    display: block;
+}
+.myForm :required {
     background-color: rgba(156,51,53,0.1);
 }
-.myform [type="submit"] {
+.myForm [type="submit"] {
     background-color: #43a0b6;
     color: #43a0b6;
     border: none;
