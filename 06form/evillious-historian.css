@@ -205,7 +205,6 @@ figure.seth figcaption {
     width: 60%;
     height: auto;
     clear: both;
-    float: center;
 }
 
 .tooltip:hover {
@@ -223,7 +222,6 @@ figure.seth figcaption {
     float: right;
     display: none;
     position: relative;
-    border: 1px solid black;
     background-color: black;
     opacity: 60%;
     border-radius: 3px;
@@ -276,7 +274,6 @@ div.gallery {
     display: flex;
     flex-wrap: wrap;
     width: 102%;
-    float: center;
     clear: both;
 }
 
