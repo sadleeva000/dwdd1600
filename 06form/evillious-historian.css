@@ -1,0 +1,403 @@
+body {
+    background-color: #2b2b5b;
+    margin: 0;
+    cursor: url(images/spoon.png), auto;
+}
+
+p {
+    color: #121212;
+    margin-left: 1rem;
+    line-height: 1.5rem;
+}
+
+a {
+    color: #665896;
+}
+
+a:hover {
+    color: white
+}
+
+/* header stuff */
+
+header {
+    color: black;
+    background-color: #afccd4;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+header span {
+    font-size: 2rem;
+    font-family: "IM Fell English", serif;
+    font-weight: 550;
+}
+
+/* navigation stuff */
+
+nav {
+    background-color: #afccd4;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+nav li.active a {
+    border: 1px solid #665896;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px
+}
+
+nav li.active a:hover {
+    color: #665896;
+}
+
+/* main stuff */
+
+main {
+    padding: 1rem;
+}
+
+main h1,
+h2,
+h3,
+h4 {
+    font-family: "IM Fell English", serif;
+}
+
+main h2,
+h3,
+h4 {
+    margin-left: .5rem
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h1.characters-by-arc {
+    margin-left: 8rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+main h3 {
+    font-size: 1.25rem;
+    color: #090909;
+}
+
+main h4 {
+    color: #121212;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+
+main p {
+    margin-right: 1.5rem
+}
+
+main ol {
+    font-size: 1.2rem;
+    color: #121212;
+    line-height: 2rem;
+}
+
+main ul li {
+    list-style-type: circle;
+}
+
+main address {
+    margin-left: 2rem;
+    color: grey;
+    margin-top: 1.5rem;
+    margin-bottom: -1rem;
+}
+
+main dl {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+main dl dt {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+main dl dd {
+    color: #121212;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+main ol {
+    list-style-position: inside;
+    margin-left: -1rem;
+}
+
+/* images stuff here */
+
+main img {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: 0 0 1rem 2rem;
+}
+
+main figure.wrapped {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-left: -22.5rem;
+    margin-bottom: 0.5rem;
+}
+
+main figure.border-left {
+    display: block;
+    float: left;
+    width: 40%;
+    height: auto;
+    margin: 1.5rem -30rem 0 -5rem
+}
+
+main figure.border-right {
+    display: block;
+    float: right;
+    width: 40%;
+    height: auto;
+    margin: -3.5rem 15rem 0 0;
+}
+
+figure.seth {
+    display: block;
+    float: right;
+    width: 75%;
+    height: auto;
+    margin: 15rem 5rem 1rem -35rem
+}
+
+figure.seth figcaption {
+    text-align: center;
+    clear: both;
+    margin: 0 5rem 0 45rem;
+}
+
+.tooltip figure {
+    display: block;
+    width: 60%;
+    height: auto;
+    clear: both;
+    float: center;
+}
+
+.tooltip:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.tooltip:hover p
+{
+    display: block;
+}
+
+.tooltip p {
+    margin-right: -25rem;
+    float: right;
+    display: none;
+    position: relative;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 60%;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 5px;
+    font-size: 0.8rem;
+    color: #afccd4;
+    text-align: center;
+}
+
+.tooltip p:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+div.featured img {
+    width: 50%;
+    height: auto;
+    transition: transform 0.3s ease;
+    display: block;
+    margin-left: -1rem;
+}
+
+div.featured img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    z-index: 10;
+    position: relative;
+}
+
+div.featured figure {
+    display: block;
+    float: right;
+}
+
+div.featured figcaption {
+    clear: both;
+    margin-top: .5rem;
+    text-align: center;
+    margin: 0 -1rem 1rem 9rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 102%;
+    float: center;
+    clear: both;
+}
+
+div.gallery img {
+    width: 75%;
+    height: auto;
+    margin: 1rem;
+}
+
+div.gallery img:hover {
+    transform: scale(1.1);
+}
+
+div.gallery figcaption {
+    text-align: center;
+    clear: both;
+    margin-left: 3.5rem
+}
+
+/* form stuff */
+
+.lust p, .lust figure, .gluttony p, .gluttony figure, .pride p, .pride figure, .sloth p, .sloth figure, .envy p, .envy figure, .greed p, .greed figure, .wrath p, .wrath figure, .original-sin p, .original-sin figure {
+ width: 40%;
+}
+
+.lust p, .lust figure, .gluttony p, .gluttony figure, .pride p, .pride figure, .sloth p, .sloth figure, .envy p, .envy figure, .greed p, .greed figure, .wrath p, .wrath figure, .original-sin p, .original-sin figure {
+    display: none;
+}
+
+.lust:hover p, .lust:hover figure, .gluttony:hover p, .gluttony:hover figure, .pride:hover p, .pride:hover figure, .sloth:hover p, .sloth:hover figure, .envy:hover p, .envy:hover figure, .greed:hover p, .greed:hover figure, .wrath:hover p, .wrath:hover figure, .original-sin:hover p, .original-sin:hover figure {
+    display: block;
+}
+
+.lust figure, .gluttony figure, .pride figure, .sloth figure, .envy figure, .greed figure, .wrath figure, .original-sin figure {
+    width: 30%;
+    height: auto;
+}
+
+:required:invalid {
+    border: 2px solid red;
+}
+
+[type="text"],
+[type="tel"],
+[type="email"],
+[type="checkbox"],
+[type="radio"],
+select,
+textarea,
+label {
+    display: flex;
+    gap: 0.4rem;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+}
+
+[type="text"],
+[type="tel"],
+[type="email"],
+select,
+textarea {
+    padding: .3rem;
+    border: 1px solid #000;
+    background-color: #afccd4;
+    font-size: 0.9rem;
+    height: auto;
+}
+
+[type="text"],
+[type="tel"],
+[type="email"] {
+    height: 0.6rem;
+}
+
+textarea {
+    height: 6rem;
+    width: 300px;
+}
+
+fieldset {
+    border: 1px solid #afccd4;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    color: #121212;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    padding: 1.2rem;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+input[type="submit"] {
+    margin-left: 1rem;
+    background-color: #665896;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scoring-chart {
+    margin-left: 1.7rem;
+    font-size: 1.7rem;
+}
+
+/* footer stuff */
+
+footer {
+    background-color: #afccd4;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+}
