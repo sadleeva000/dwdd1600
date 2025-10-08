@@ -325,7 +325,7 @@ select,
 textarea,
 label {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.4rem;
     font-size: 1.1rem;
     padding: 0.3rem;
@@ -348,6 +348,11 @@ textarea {
 [type="email"] {
     height: 1rem;
     width: fit-content;
+}
+
+div.information label {
+    display: flex;
+    width:fit-content;
 }
 
 textarea {
