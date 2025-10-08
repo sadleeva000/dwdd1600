@@ -352,7 +352,7 @@ textarea {
 
 div.information label {
     display: flex;
-    width:fit-content;
+    flex-direction: column;
 }
 
 textarea {
