@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Evan Sadler">
+  <meta name="description" content="A comprehensive collection of Evillious Chronicles lore and media">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="favicon.ico">
+  <link
+    href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Oxygen:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="evillious-historian.css">
+  <title>The Evillious Historian: Quizzes and Fun Stuff</title>
+</head>
+
+<body>
+  <!--start the page head -->
+  <header>
+    <img src="images/evillious-logo.png" alt="The Evillious Historian logo" width="50" height="50">
+    <span>Quizzes and Fun Stuff</span>
+  </header>
+
+  <!-- start the page navigation -->
+  <nav>
+    <ul>
+      <li class="inactive"><a href="index.html">Introduction</a></li>
+      <li class="inactive"><a href="timeline.html">Timeline</a></li>
+      <li class="inactive"><a href="characters.html">Characters</a></li>
+      <li class="inactive"><a href="locations.html">Locations</a></li>
+      <li class="inactive"><a href="glossary.html">Glossary</a></li>
+      <li class="inactive"><a href="about.html">About</a></li>
+      <li class="inactive"><a href="navigation.html">Navigation</a></li>
+      <li class="active"><a href="funstuff.html">Quizzes</a></li>
+    </ul>
+  </nav>
+
+
+  <main>
+    <h1>Which of the Seven Deadly Sins Vessels Are You?</h1>
+    <h4>Calculate your total score based on your answers to the questions below:</h4>
+    <form class="myForm" method="get" action="results.html">
+
+      <div class="information">
+        <fieldset>
+          <legend>Please enter your information to recieve results</legend>
+          <label>Name* <input type="text" name="name" required placeholder="Your Name"></label><br>
+          <label>Email* <input type="email" name="email" required placeholder="you@example.com"></label><br>
+          <label>Phone* <input type="tel" name="phone" required placeholder="(555) 555-5555"></label>
+        </fieldset>
+      </div>
+
+      <fieldset>
+        <legend>1. What is your favorite color?</legend>
+        <label><input type="radio" name="color" value="lust">Purple (1)</label>
+        <label><input type="radio" name="color" value="gluttony">Red (2)</label>
+        <label><input type="radio" name="color" value="pride">Yellow (3)</label>
+        <label><input type="radio" name="color" value="sloth">Teal (4)</label>
+        <label><input type="radio" name="color" value="envy">Pink (5)</label>
+        <label><input type="radio" name="color" value="greed">Blue (6)</label>
+        <label><input type="radio" name="color" value="wrath">Green (7)</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Who's your favorite Vocaloid?</legend>
+        <label><input type="radio" name="vocaloid" value="sloth">Hatsune Miku (4)</label>
+        <label><input type="radio" name="vocaloid" value="pride">Kagamine Rin (3)</label>
+        <label><input type="radio" name="vocaloid" value="pride">Kagamine Len (3)</label>
+        <label><input type="radio" name="vocaloid" value="envy">Megurine Luka (5)</label>
+        <label><input type="radio" name="vocaloid" value="greed">Kaito (6)</label>
+        <label><input type="radio" name="vocaloid" value="gluttony">Meiko (2)</label>
+        <label><input type="radio" name="vocaloid" value="wrath">Gumi (7)</label>
+        <label><input type="radio" name="vocaloid" value="lust">Kamui Gakupo (1)</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. What's your love language?</legend>
+        <label><input type="checkbox" name="love_language" value="envy">Words of Affirmation (5)</label>
+        <label><input type="checkbox" name="love_language" value="pride">Acts of Service (3)</label>
+        <label><input type="checkbox" name="love_language" value="sloth">Gifts (4)</label>
+        <label><input type="checkbox" name="love_language" value="greed">Quality Time (6)</label>
+        <label><input type="checkbox" name="love_language" value="lust">Physical Touch (1)</label>
+        <label><input type="checkbox" name="love_language" value="gluttony">Food (2)</label>
+        <label><input type="checkbox" name="love_language" value="wrath">Loyalty (7)</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>4. What do you do in your free time?</legend>
+        <label><input type="checkbox" name="hobby" value="lust">Martial Arts (1)</label>
+        <label><input type="checkbox" name="hobby" value="gluttony">Eating/Drinking (2)</label>
+        <label><input type="checkbox" name="hobby" value="pride">Horseriding (3)</label>
+        <label><input type="checkbox" name="hobby" value="sloth">Sleeping (4)</label>
+        <label><input type="checkbox" name="hobby" value="envy">Sewing (5)</label>
+        <label><input type="checkbox" name="hobby" value="greed">Collecting (6)</label>
+        <label><input type="checkbox" name="hobby" value="wrath">Hunting (7)</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>5. You're at a restaurant with friends. What do you order?</legend>
+        <select name="food">
+          <option value="none" disabled selected>Select an option</option>
+          <option value="lust">Fruit (1)</option>
+          <option value="lust">Spicy food (1)</option>
+          <option value="gluttony">Meat (2)</option>
+          <option value="pride">Bread (3)</option>
+          <option value="sloth">Sweets (4)</option>
+          <option value="pride">Tea (3)</option>
+          <option value="envy">Water (5)</option>
+          <option value="greed">Soup (6)</option>
+          <option value="wrath">Seafood (7)</option>
+          <option value="sloth">Fast food (4)</option>
+          <option value="wrath">They say revenge is a dish best served cold...(7)</option>
+          <option value="greed">Whatever is most expensive (6)</option>
+          <option value="envy">I'll have whatever my friend is having (5)</option>
+          <option value="gluttony">I'll have a bit of everything (2)</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>6. Tell us how we did! Or, tell us your favorite Evillious song, character, or anything else you'd like
+          to share!</legend>
+        <textarea name="comments" placeholder="What's your favorite Evillious song?"></textarea>
+      </fieldset>
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+  <!-- start the page footer -->
+  <footer>
+    <p>&copy; 2025 &bull; Evan Sadler &bull; Web Essentials</p>
+  </footer>
+</body>
