@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vacation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <title>Budget Vacations</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Budget Vacations Logo" class="logo">
+        <h1>Budget Vacations</h1>
+        <img src="images/paper-plane.png" alt="A cartoon paper plane flying" class="plane">
+        <h3>You pick the destination, we handle the rest!</h3>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="images/hero.webp" alt="person carrying a suitcase walking towards an airplane" class="hero-image">
+        <h2>Welcome to Budget Vacations!</h2>
+        <p>Your <em>one-stop shop</em> for <strong>affordable</strong> and <strong>unforgettable</strong> travel
+            experiences. Whether you're looking for a
+            relaxing beach getaway, an adventurous mountain trek, or a cultural city tour, we've got you covered.</p>
+        <h2>What We Offer</h2>
+        <ul>
+            <li>Staycations - Find hidden gems in your area!</li>
+            <li>Cross-country Road Trips - From LA to New York, visit all the iconic places your country has to offer!
+            </li>
+            <li>International Adventures - Affordable expeditions around the world without the hassle!</li>
+        </ul>
+
+        <h2>Top Destinations</h2>
+        <ol>
+            <li>Bangkok, Thailand</li>
+            <li>Bali, Indonesia</li>
+            <li>Tokyo, Japan</li>
+            <li>New York, USA</li>
+            <li>Paris, France</li>
+        </ol>
+
+        <h2>Testimonials</h2>
+        <blockquote>"Budget Vacations helped me achieve my dream vacation!" - Sarah L.</blockquote>
+        <blockquote>"My wedding was a dream come true, all thanks to Budget Vacations!" - Mark T.</blockquote>
+        <blockquote>"Great experience overall!" - Emily R.</blockquote>
+        <br>
+        <h3>Rate your experience!</h3>
+        <form class="review" action="thanks.html" method="post">
+            <label for="rating">Rating (1-5):</label>
+            <input type="number" id="rating" name="rating" min="1" max="5">
+            <br>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Budget Vacations</p>
+    </footer>
+</body>
+
+</html>

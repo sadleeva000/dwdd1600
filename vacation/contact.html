@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="vacation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Budget Vacations Logo" class="logo2">
+        <h1>Contact Us</h1>
+        <img src="images/paper-plane.png" alt="A cartoon paper plane flying" class="plane2">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Get a Quote</h2>
+        <p>Let us help you plan your next adventure! Fill out the form below to receive a personalized travel quote.</p>
+        <form class="quote" action="thanks.html" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </fieldset>
+            <fieldset>
+                <legend>Destination</legend>
+                <label>What destinations are you considering? (If you don't know, that's ok! Feel free
+                    to reach out and book a free consultation.)</label>
+                <input type="text" id="destination" name="destination" required>
+                <label>How far are you wanting to go?</label>
+                <input type="radio" id="staycation" name="distance" required>I'm looking for a staycation. Maybe a local
+                hotel nearby and an excuse to check out some hidden gems."
+                <input type="radio" id="domestic" name="distance" required> I'm looking for more of a road trip. Looking
+                to get out and have an adventure full of new experiences.
+                <input type="radio" id="international" name="distance" required> I'm looking to really get out of my
+                comfort zone and experience new cultures in another part of the world.
+                <input type="radio" id="flexible" name="distance" required> I'm up for anything! Just looking to treat
+                myself or my family to a cool experience.
+                <input type="radio" id="undecided" name="distance" required> I'm not sure yet. I want Budget Vacations
+                to help build the vacation of my dreams!
+            </fieldset>
+            <fieldset>
+                <legend>Accommodations</legend>
+                <label>What type of accommodations are you interested in?</label>
+                <input type="radio" id="hotel" name="accommodations" required> Hotel
+                <input type="radio" id="hostel" name="accommodations" required> Motel/Hostel
+                <input type="radio" id="bnb" name="accommodations" required> Bed & Breakfast
+                <input type="radio" id="rental" name="accommodations" required> Rental (Airbnb, Vrbo, etc.)
+                <input type="radio" id="resort" name="accommodations" required> Resort
+            </fieldset>
+            <fieldset>
+                <legend>Budget</legend>
+                <label>What's your budget?</label>
+                <input type="radio" id="budget1" name="budget" required> Under $500
+                <input type="radio" id="budget2" name="budget" required> $500 - $1,000
+                <input type="radio" id="budget3" name="budget" required> $1,000 - $3,000
+                <input type="radio" id="budget4" name="budget" required> $3,000 - $5,000
+                <input type="radio" id="budget5" name="budget" required> $5,000+
+                <input type="radio" id="budget" name="budget" required> Unlimited/Budget is not a concern
+            </fieldset>
+            <input type="submit" value="Get Quote">
+        </form>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance with your travel plans, feel free to reach out to us at
+            <a href="mailto:contact@budgettravel.com">contact@budgettravel.com</a> or call us at <a
+                href="tel:123-456-7890">123-456-7890</a>. You can also come and visit us at our office at
+       </p>
+        <address>123 Travel Lane, Wanderlust City, WL 45678</address>.
+    </main>
+    <footer>
+        <p>&copy; 2025 Budget Vacations</p>
+    </footer>
+</body>
+
+</html>
